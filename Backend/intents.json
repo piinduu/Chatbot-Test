@@ -1,0 +1,141 @@
+{
+    "intents": [
+        {
+            "tag": "tickets_soporte",
+            "patterns": [
+                "¿A qué correo envío los tickets?",
+                "¿Dónde mando las incidencias?",
+                "¿Cómo puedo reportar un problema?",
+                "¿Cuál es el email para reportar incidencias?",
+                "¿A qué dirección de correo debo enviar mis tickets?",
+                "¿Cómo puedo notificar un fallo?",
+                "¿Dónde puedo reportar un problema en el sistema?",
+                "¿En qué correo envío mis incidencias?",
+                "¿A qué mail debo enviar mi incidencia?",
+                "¿Cómo reporto un error en el sistema?"
+            ],
+            "responses": [
+                "Por favor, envía los tickets a tickets@ayuda.com.",
+                "Puedes reportar los problemas a tickets@ayuda.com.",
+                "Utiliza el correo tickets@ayuda.com para enviar tus incidencias."
+            ]
+        },
+        {
+            "tag": "reparacion_ordenadores",
+            "patterns": [
+                "¿Quién se encarga de reparar ordenadores?",
+                "¿Quién maneja las reparaciones de equipos?",
+                "¿Dónde solicito una reparación de PC?",
+                "¿Quién repara las computadoras?",
+                "¿A quién puedo llamar para arreglar mi PC?",
+                "¿Quién soluciona los problemas de hardware?",
+                "¿Quién se encarga de la reparación de equipos de cómputo?",
+                "Necesito arreglar mi ordenador, ¿quién lo hace?",
+                "¿A quién contacto para reparación de ordenadores?",
+                "¿Quién realiza las reparaciones de PC?"
+            ],
+            "responses": [
+                "El departamento de TI se encarga de las reparaciones.",
+                "Contacta con TI para cualquier reparación de ordenadores.",
+                "Para reparaciones de equipos, comunícate con el departamento de TI."
+            ]
+        },
+        {
+            "tag": "soporte_software",
+            "patterns": [
+                "¿Quién me ayuda con problemas de software?",
+                "¿A quién acudo para soporte técnico de aplicaciones?",
+                "¿Cómo obtengo soporte para mis herramientas de trabajo?",
+                "¿A quién puedo acudir si mi software no funciona?",
+                "¿Quién me ayuda con los problemas de aplicaciones?",
+                "¿Cómo puedo obtener asistencia con mi programa?",
+                "¿Quién ofrece soporte para software en la oficina?",
+                "¿A quién debo llamar si tengo problemas con el software?",
+                "¿Dónde encuentro soporte técnico para aplicaciones?",
+                "¿Quién me asiste con problemas de software?"
+            ],
+            "responses": [
+                "El equipo de soporte técnico puede ayudarte con el software.",
+                "Para problemas de software, consulta al equipo de TI.",
+                "El soporte técnico de software está a tu disposición."
+            ]
+        },
+        {
+            "tag": "solicitud_material_oficina",
+            "patterns": [
+                "¿Dónde puedo pedir más material de oficina?",
+                "¿Cómo consigo bolígrafos o papel?",
+                "¿A quién le solicito material de oficina?",
+                "¿Cómo puedo solicitar suministros de oficina?",
+                "¿Dónde debo pedir material de oficina?",
+                "¿A quién le pido bolígrafos, papel y otros insumos?",
+                "¿Dónde puedo conseguir material de oficina?",
+                "¿Dónde puedo pedir suministros de oficina?",
+                "Necesito material de oficina, ¿a quién le pido?",
+                "¿Cómo solicito material de oficina?"
+            ],
+            "responses": [
+                "Puedes solicitar material de oficina al departamento de administración.",
+                "Por favor, contacta con administración para solicitar material.",
+                "Para material de oficina, comunícate con el departamento de administración."
+            ]
+        },
+        {
+            "tag": "horario_atencion",
+            "patterns": [
+                "¿Cuál es el horario de atención?",
+                "¿A qué hora está disponible el soporte?",
+                "¿Cuándo puedo contactar al soporte técnico?",
+                "¿Cuál es el horario de atención del servicio?",
+                "¿Qué horas están abiertos el soporte técnico?",
+                "¿En qué horario puedo contactar a soporte?",
+                "¿A qué hora abren y cierran el soporte técnico?",
+                "¿Cuál es el horario de soporte?",
+                "¿A qué hora puedo recibir asistencia?",
+                "¿Cuándo está operativo el servicio de soporte?"
+            ],
+            "responses": [
+                "El soporte técnico está disponible de 9:00 a 18:00.",
+                "Nuestro horario de atención es de lunes a viernes, de 9:00 a 18:00.",
+                "El servicio de soporte funciona de 9:00 a 18:00, de lunes a viernes."
+            ]
+        },
+        {
+            "tag": "imagen_local_ok",
+            "patterns": [
+                "Muestra la imagen local",
+                "Quiero ver la imagen local",
+                "Ver imagen local",
+                "Muestra la foto local",
+                "Quiero ver la foto almacenada localmente",
+                "Enséñame la imagen local",
+                "Muéstrame la foto de la oficina",
+                "¿Puedes mostrarme la imagen local?",
+                "Necesito ver la imagen local"
+            ],
+            "responses": [
+                "Aquí tienes la imagen local:"
+            ],
+            "image_url": "http://localhost:5173/images/ok.jpeg"
+        },
+        {
+            "tag": "imagen_remota_ok",
+            "patterns": [
+                "Muestra la imagen remota",
+                "Quiero ver la imagen remota",
+                "Ver imagen remota",
+                "Muestra la foto remota",
+                "Quiero ver la imagen de la web",
+                "Enséñame la imagen remota",
+                "Ver foto remota",
+                "Muéstrame la imagen que está en línea",
+                "¿Puedes mostrarme la imagen remota?",
+                "Necesito ver la imagen en línea"
+            ],
+            "responses": [
+                "Aquí tienes la imagen remota:"
+            ],
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/OK-button_-_Macro_photography_of_a_remote_control.jpg/800px-OK-button_-_Macro_photography_of_a_remote_control.jpg"
+        }
+    ]
+}
